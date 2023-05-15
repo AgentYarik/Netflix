@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #000;
+    font-family: 'Julee', cursive;
+}
+.img{
+    width: 200px;
+    margin-top: 30px;
+}
+.button{
+    color: #fff;
+    width: 77px;
+    height: 32px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: red;
+}
+.header__block{
+    position: relative;
+    background-image: url(./img/background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: -250% 20%;
+    background-size: 100%;
+}
+.header__block::after{
+    position: absolute;
+    top: 0;
+    content: '';
+    background-color: #000000ae;
+    width: 100%;
+    height: 100%;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.select{
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    z-index: 1;
+}
+.select:hover{
+    border: 3px solid #ffffff;
+}
+.button{
+    margin-top: 30px;
+    cursor: pointer;
+    z-index: 1;
+}
+.block-right{
+    display: flex;
+}
+.header__section{
+    position: relative;
+    z-index: 1;
+}
+.text{
+
+}
+.text-1{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 200px;
+    font-size: 70px;
+
+}
+.p{
+    color: #fff;
+    text-align: center;
+}
+.img{
+    z-index: 1;
+}
+h5{
+    font-family: 'Julee', cursive;
+    font-size: 80px;
+}
+.countainer {
+    display: flex;
+}
+.form-control {
+    opacity: 0.5;
+    background-color: #ffffff36;
+}
+.email {
+    
+}
+.countainer-button {
+    background-color: red;
+    color: #fff;
+    border-radius: 7px;
+    width: 80px;
+    text-align: center;
+}
+
+.header__section{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    
+}
+.carousel-item{
+    height: 800px;
+}
+p{
+    font-size: 30px;
+    font-family: 'Julee', cursive;
+}
+.photos{
+    height: 550px;
+}
