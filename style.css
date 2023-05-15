@@ -79,7 +79,7 @@ body{
     text-align: center;
     font-size: 40px;
     margin-top: 200px;
-    font-size: 70px;
+    font-size: 50px;
 
 }
 .p{
@@ -91,7 +91,7 @@ body{
 }
 h5{
     font-family: 'Julee', cursive;
-    font-size: 80px;
+    font-size: 60px;
 }
 .countainer {
     display: flex;
@@ -130,7 +130,7 @@ h5{
     height: 800px;
 }
 p{
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Julee', cursive;
 }
 .photos{
